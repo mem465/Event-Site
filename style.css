@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 
 body {
-	line-height: 2em;
 	margin: 0;
 	padding: 0;
 }
@@ -18,6 +17,7 @@ body {
 
 .row {
 	display: flex;
+	justify-content: center;
 }
 
 .container h2 {
@@ -128,6 +128,7 @@ header {
 
 .columns_2 {
 	width: 480px;
+	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	
@@ -173,29 +174,31 @@ h3 {
 h4 {
 	font-size: 1em;
 	color: black;
+	font-weight: 100;
 	text-align: center;
 	margin: 15px 0;
-	font-family: 'Century Gothic', regular;
+	font-family: 'Roboto', sans-serif;
 }
 
 h5 {
 	font-size: .85em;
 	margin: 0 0 20px 0;
+	font-weight: 100;
 	color: black;
-	font-family: 'Century Gothic', regular;
+	font-family: 'Roboto', medium ;
 }
 
 h6 {
 	font-size: 1em;
 	color: #FFF2E0;
-	font-family: 'Century Gothic', bold;
+	font-family: 'Roboto', sans-serif;
 }
 
 
 
 .small-text {
 	font-size: .9em;
-	font-family:'Century Gothic', serif;
+	font-family:'Roboto', sans-serif;
 	color: black;
 }
 
@@ -272,7 +275,6 @@ button:hover {
   display: flex;
 		  
  }
-
 
 
  .sec-5 {
@@ -379,9 +381,24 @@ background-color: #FFF2E0;
 	padding: 0 15px 15px;
 	text-align: center;
 }
+
+.clothing-text h2 {
+	margin: 0;
+}
 .clothing img {
 	height: 100%;
 	width: 300px;
 	object-fit: cover;
 	background-color:white;
+}
+
+.artists {
+	background: #FFF2E0;
+	text-align: center;
+	padding: 3em;
+}
+
+.artists img {
+	background-size:cover;
+	display: flex;
 }
