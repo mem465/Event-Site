@@ -16,6 +16,14 @@ body {
     overflow:hidden;  
     }
 
+.row {
+	display: flex;
+}
+
+.container h2 {
+	margin-top: 20px;
+	}
+
 .hero {
 	background: url(images/Coachella.jpg);
 	background-size: cover;
@@ -122,6 +130,7 @@ header {
 	width: 480px;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	
 }
 
 .columns_3 {
@@ -218,7 +227,6 @@ nav {
 
   .btn{
 	text-align: center; 
-	width: 150px;
 	padding: 2px 20px;
 	background-color: #A2FAD3;
 	font-size: 16px;
@@ -235,13 +243,37 @@ img {
  width:100%
 	  }
 
+button {
+	text-align: center; 
+	width: 100px;
+	padding: 5px 20px;
+	background-color: #A2FAD3;
+	font-size: 10px;
+	font-family: 'Century Gothic', sans-serif;
+	border-radius:4px;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+button a {
+	text-decoration: none;
+	color: black;
+}
+
+button:hover {
+	background: #F697FB;
+}
+
 .sec-4{
-	background-color:#FFF2E0;
-  padding: 50px 150px 0 0;
+  background-color:#FFF2E0;
   text-align: center;
+  padding: 70px;
   display: flex;
 		  
  }
+
+
 
  .sec-5 {
 	width: 100%;
@@ -264,6 +296,7 @@ img {
 .img-sunset {
 	height: 300px;
 	width: 500px;
+	padding: 50px;
 	align-items: center;
 }
 
@@ -318,5 +351,37 @@ img {
 	text-decoration: none;
 }
 
+.hero-shopping {
+	background: url(images/models.jpg);
+	background-size: cover;
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-	
+.waitlist-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.waitlist-buttons .btn {
+	margin: 10px;
+
+}
+.clothing {
+background-color: #FFF2E0;
+}
+
+.clothing-text {
+	background: #4B76F4;
+	padding: 0 15px 15px;
+	text-align: center;
+}
+.clothing img {
+	height: 100%;
+	width: 300px;
+	object-fit: cover;
+	background-color:white;
+}
