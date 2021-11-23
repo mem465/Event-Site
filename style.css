@@ -399,6 +399,13 @@ background-color: #FFF2E0;
 }
 
 .artists img {
-	background-size:cover;
+	background-size: cover;
 	display: flex;
 }
+
+.tickets {
+	background: #FFF2E0;
+	text-align: center;
+	padding: 3em;
+}
+
