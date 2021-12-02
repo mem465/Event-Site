@@ -302,26 +302,16 @@ button:hover {
 	align-items: center;
 }
 
-.footer-bar {
+footer {
 	height: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background:#4B76F4;
 	padding: 0 20px;
+	color: white;
 }
 
-.copyright{
-	width: 100%;
-	color: #4B76F4;
-}
-
-.copyright p {
-	margin-top: 50px;
-	margin-bottom: 0;
-	text-align: center;
-	color: #FFF2E0;
-}
 
 .fa-facebook-square,
 .fa-twitter-square, 
@@ -329,29 +319,11 @@ button:hover {
 
 	font-size: 2em;
 	text-align: center;
-	margin: 20px 5px 0 15px;
+	margin:0 5px;
 	color:#FFF2E0;
 	text-decoration: none;
 }
 
-.copyright a:link {
-	color: #FFF2E0;
-	text-decoration: none;
-}
-
-.copyright a:visted {
-	color:#A2FAD3;
-	
-}
-.copyright a:hover {
-	color:#A2FAD3;
-	
-}
-
-.copyright a:active{
-	color: #A2FAD3;
-	text-decoration: none;
-}
 
 .hero-shopping {
 	background: url(images/models.jpg);
@@ -416,6 +388,16 @@ background-color: #FFF2E0;
 }
 
 .camping {
+	background:#E9F0FA;
+	text-align: center;
+	padding: 3em;
+}
+.services {
+	background: #FFF2E0;
+	text-align: center;
+	padding: 3em;
+}
+.rules {
 	background:#E9F0FA;
 	text-align: center;
 	padding: 3em;
