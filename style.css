@@ -348,6 +348,7 @@ footer {
 }
 .clothing {
 background-color: #FFF2E0;
+padding: 15px;
 }
 
 .clothing-text {
@@ -404,3 +405,64 @@ background-color: #FFF2E0;
 	text-align: center;
 	padding: 3em;
 }
+
+	
+.wrapper {
+	width:80%;
+	margin: 0 auto;
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	gap:10px;
+  }
+  .box {
+	padding: 10px;
+	border: 1px solid #333;
+  }
+
+  
+
+	@media screen and (min-width: 700px) {
+		.wrapper {
+			display:flex;
+		}
+	}
+	@media screen and (max-width: 600px) {
+		.wrapper{
+		grid-template-columns: 1fr 1fr;
+		}
+		h1 {
+		  font-size: 2em;
+		  color:white;
+		}
+		
+	  }
+	  
+	  .footer {
+		height: 100px;
+		background-color:#4B76F4;
+	  }
+		
+	  
+	  @media screen and (max-width: 400px) {
+		.wrapper {
+		  display: block;
+		}
+
+
+
+/*
+@media screen and (max-width: 800px){
+	.sec-3 {
+		display: block;
+	}
+	.card-container {
+		display: block;
+	}
+
+	.card {
+		width: 100%;
+	}
+
+}
+
+*/
