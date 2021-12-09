@@ -430,11 +430,31 @@ padding: 15px;
 		.wrapper{
 		grid-template-columns: 1fr 1fr;
 		}
+
 		h1 {
 		  font-size: 2em;
 		  color:white;
 		}
-		
+		h2 {
+			font-size:1.5em;
+			color:#F697FB;
+		}
+		h3{
+			font-size: 1.3em;
+			color:#F697FB;
+		}
+		h4{
+			font-size: 0.8em;
+			color:black;
+		}
+		h5 {
+			font-size: .5em;
+			color:black
+		}
+		h6 {
+			font-size: .8em;
+			color:#E9F0FA;
+		}
 	  }
 	  
 	  .footer {
@@ -447,7 +467,9 @@ padding: 15px;
 		.wrapper {
 		  display: block;
 		}
-
+	}
+		
+		
 
 
 /*
